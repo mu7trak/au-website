@@ -7,6 +7,16 @@ https://adwokatlobocka.pl/
 https://smadwokaci.pl/
 
 ## Dev stuff
+
+
+### Start Hugo server
+``` sh
+conda deactivate
+conda activate au-website
+hugo server -D
+```
+
+
 ### Install venv
 ``` sh
 conda create -n au-website python=3.10
@@ -45,6 +55,7 @@ npm -v
 hugo mod init github.com/mu7trak/au-website
 hugo mod tidy
 ```
+
 
 
 #### Preffered files structure

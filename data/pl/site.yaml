@@ -1,0 +1,13 @@
+# Copyright Notice
+copyright: © Mateusz Utracki 2025 Copyright.
+
+# Meta description for your site.  This will help the search engines to find your site.
+description: Portfolio and personal blog of Anna Miałkowska.
+
+# Enable multilingual support
+multilingual:
+  enabled: true
+  defaultContentLanguage: pl
+  languages:
+    pl:
+      languageName: Polish
