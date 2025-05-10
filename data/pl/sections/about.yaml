@@ -1,6 +1,6 @@
 # section information
 section:
-  name: About
+  name: O mnie
   id: about
   enable: true
   weight: 1
@@ -8,7 +8,7 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Trainee Attorney
+designation: Aplikant Adwokacki
 # your company information
 company:
   name: MGS Kancelaria Radców Prawnych i Adwokatów Dariusz Mądry, Michał Sznycer i Partnerzy
@@ -17,16 +17,16 @@ company:
 
 # a summary about you
 summary: >
-  I handle the ongoing legal services for commercial law companies, represent Clients in judicial and extrajudicial disputes,
-  and actively support the law firm's activities.
-  I have experience in advising natural persons (individuals) and legal persons (entities),
-  particularly in the areas of civil law, commercial law, and family law.
+  Zajmuję się bieżącą obsługą prawną spółek prawa handlowego, reprezentuję Klientów w sporach sądowych i pozasądowych
+  oraz aktywnie wspieram działalność kancelarii.
+  Posiadam doświadczenie w doradztwie na rzecz osób fizycznych oraz osób prawnych,
+  w szczególności w zakresie prawa cywilnego, prawa handlowego oraz prawa rodzinnego.
 
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
-- name: Email
+- name: E-mail
   icon: "fas fa-envelope"
   url: "anna.utrackaa@gmail.com"
 
