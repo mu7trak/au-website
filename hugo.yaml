@@ -1,6 +1,6 @@
 baseURL: "https://mu7trak.github.io/au-website/"
 
-languageCode: en-US
+languageCode: pl-PL
 title: "Anna Mialkowska"
 
 
@@ -27,7 +27,7 @@ languages:
     languageCode: en-US
     languageName: English
     contentDir: content/en
-    weight: 1
+    weight: 2
     params:
       features:
         blog:
@@ -36,7 +36,7 @@ languages:
     languageCode: pl-PL
     languageName: Polish
     contentDir: content/pl
-    weight: 2
+    weight: 1
     params:
       features:
         blog:

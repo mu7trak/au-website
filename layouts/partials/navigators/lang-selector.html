@@ -1,0 +1,34 @@
+{{ $pageURL:= .RelPermalink }}
+{{ if hugo.IsMultilingual }}
+  {{/* This calculation of $pageURL might be flawed for subdirectories,
+     but it won't affect the href if we use .RelPermalink directly from the loop item.
+     We'll keep it for now in case other parts of an un-snipped partial use it,
+     though for this specific href, it becomes unused. */}}
+  {{ $pageURL = strings.TrimPrefix (path.Join "/" .Language.Lang) $pageURL }}
+{{ end }}
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="languageSelector" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        {{ if ne site.Params.features.flags.enable false }}
+            {{ $countryCode := partial "helpers/country-code.html" . }}
+            <span class="fi fi-{{$countryCode}}"></span>
+        {{ end }}
+        {{ site.Language.LanguageName }}
+    </a>
+    <div class="dropdown-menu" aria-labelledby="languageSelector">
+        {{ range site.Home.AllTranslations }}
+        {{/*
+          MODIFIED LINE:
+          Instead of manually constructing the path, we use the .RelPermalink
+          of the target language's homepage (. refers to an item from site.Home.AllTranslations).
+          Hugo's .RelPermalink correctly handles baseURL subdirectories and language codes.
+        */}}
+        <a class="dropdown-item nav-link languages-item" href="{{ .RelPermalink }}">
+            {{ if ne site.Params.features.flags.enable false }}
+                {{ $countryCode := partial "helpers/country-code.html" . }}
+                <span class="fi fi-{{$countryCode}}"></span>
+            {{ end }}
+            {{ .Language.LanguageName }}
+        </a>
+        {{ end }}
+    </div>
+</li>
