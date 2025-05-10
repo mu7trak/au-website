@@ -27,6 +27,7 @@
                 {{ end }}
                 */}}
                 <div class="card-body">
+                  {{/* This is the link we are interested in */}}
                   <h5 class="card-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h5>
                   <p class="card-text">{{ .Summary | plainify | truncate 150 }}</p>
                 </div>

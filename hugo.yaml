@@ -1,7 +1,7 @@
 baseURL: "https://mu7trak.github.io/au-website/"
 
 languageCode: pl-PL
-title: "Anna Mialkowska"
+title: "Anna Miałkowska"
 
 
 # Use Hugo modules to add theme
@@ -18,29 +18,6 @@ module:
   - source: ./node_modules/katex/dist/fonts
     target: static/fonts
 
-
-# Manage languages
-# For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
-defaultContentLanguage: en
-languages:
-  en:
-    languageCode: en-US
-    languageName: English
-    contentDir: content/en
-    weight: 2
-    params:
-      features:
-        blog:
-          name: "Blog"
-  pl:
-    languageCode: pl-PL
-    languageName: Polish
-    contentDir: content/pl
-    weight: 1
-    params:
-      features:
-        blog:
-          name: "Wpisy"
 
 # Ensure relativeURLs is false (which is the default)
 relativeURLs: false
@@ -62,12 +39,20 @@ outputs:
     - HTML
     - RSS
     - JSON
+  section:
+    - HTML
+    - RSS
 
 # Enable global emoji support
 enableEmoji: true
 
 # Site parameters
 params:
+  # Copyright Notice from data/pl/site.yaml
+  copyright: © Mateusz Utracki 2025 Copyright.
+  # Meta description from data/pl/site.yaml
+  description: Portfolio and personal blog of Anna Miałkowska.
+
   background: /images/kelly-sikkema-tk9RQCq5eQo-unsplash.jpg
   # GitHub repo URL of your site
   gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
@@ -96,6 +81,10 @@ params:
     # Enable Table of contents in reading page
     toc:
       enable: true
+    
+    # Disable language flags as it's single language now
+    flags:
+      enable: false
 
   # Configure footer
   footer:
