@@ -1,0 +1,49 @@
+{{ define "content" }}
+<div class="container py-5">
+  <div class="row">
+    <div class="col-12">
+      <h1 class="text-center">{{ .Title }}</h1>
+      
+      {{/* Optional: Display content from _index.md if any */}}
+      {{ if .Content }}
+        <div class="section-content mb-4">
+          {{ .Content }}
+        </div>
+      {{ end }}
+
+      {{ $pages := .RegularPages }}
+      {{/* If you want to paginate, you'd use .Paginator.Pages instead of .RegularPages */}}
+      {{/* For example: {{ $pages := .Paginator.Pages }} */}}
+
+      {{ if $pages }}
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          {{ range $pages }}
+            <div class="col">
+              <div class="card h-100">
+                {{/* You might want a placeholder or featured image here */}}
+                {{/* Example: 
+                {{ with .Params.featured_image }}
+                  <img src="{{ . | relURL }}" class="card-img-top" alt="{{ $.Title }}">
+                {{ end }}
+                */}}
+                <div class="card-body">
+                  <h5 class="card-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h5>
+                  <p class="card-text">{{ .Summary | plainify | truncate 150 }}</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">{{ .Date.Format "January 2, 2006" }}</small>
+                </div>
+              </div>
+            </div>
+          {{ end }}
+        </div>
+
+        {{/* Include pagination if you set it up in your _index.md or config */}}
+        {{/* {{ template "_internal/pagination.html" . }} */}}
+      {{ else }}
+        <p class="text-center">No posts found in this section.</p>
+      {{ end }}
+    </div>
+  </div>
+</div>
+{{ end }}

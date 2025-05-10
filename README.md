@@ -1,6 +1,7 @@
 # au-website
 Website for Anna Mialkowska
 
+Public URL: https://mu7trak.github.io/au-website/
 
 Similar websites:
 https://adwokatlobocka.pl/
@@ -13,8 +14,12 @@ https://smadwokaci.pl/
 ``` sh
 conda deactivate
 conda activate au-website
-hugo server -D
+# Dev deployment
+cd au-website/
+hugo server -D --config hugo.yaml,config-dev.yaml
 ```
+### Hugo toha docs
+https://toha-guides.netlify.app/posts/getting-started/
 
 
 ### Install venv
