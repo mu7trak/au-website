@@ -3,10 +3,6 @@ Website for Anna Mialkowska
 
 Public URL: https://mu7trak.github.io/au-website/
 
-Similar websites:
-https://adwokatlobocka.pl/
-https://smadwokaci.pl/
-
 ## Dev stuff
 
 
