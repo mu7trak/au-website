@@ -10,9 +10,9 @@ section:
 # your designation
 designation: Aplikant Adwokacki
 # your company information
-company:
-  name: MGS Kancelaria Radców Prawnych i Adwokatów Dariusz Mądry, Michał Sznycer i Partnerzy
-  url: "http://www.mgs-law.eu/"
+# company:
+#   name: MGS Kancelaria Radców Prawnych i Adwokatów Dariusz Mądry, Michał Sznycer i Partnerzy
+#   url: "http://www.mgs-law.eu/"
 
 
 # a summary about you
