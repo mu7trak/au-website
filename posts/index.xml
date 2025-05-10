@@ -1,25 +1,29 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Anna Mialkowska</title><link>https://mu7trak.github.io/au-website/posts/</link><description>Recent content in Posts on Anna Mialkowska</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Mon, 08 Jun 2020 08:06:25 +0600</lastBuildDate><atom:link href="https://mu7trak.github.io/au-website/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Introduction</title><link>https://mu7trak.github.io/au-website/posts/introduction/</link><pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate><guid>https://mu7trak.github.io/au-website/posts/introduction/</guid><description>&lt;p>Greeting! This is an introduction post. This post tests the followings:&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Wpisy on Anna Miałkowska</title><link>https://mu7trak.github.io/au-website/posts/</link><description>Recent content in Wpisy on Anna Miałkowska</description><generator>Hugo -- gohugo.io</generator><language>pl-PL</language><lastBuildDate>Wed, 01 May 2024 10:00:00 +0200</lastBuildDate><atom:link href="https://mu7trak.github.io/au-website/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Sukces na Egzaminie Adwokackim!</title><link>https://mu7trak.github.io/au-website/posts/egzamin/</link><pubDate>Wed, 01 May 2024 10:00:00 +0200</pubDate><guid>https://mu7trak.github.io/au-website/posts/egzamin/</guid><description>&lt;p>🎉 Mam dla Was fantastyczną wiadomość! 🎉&lt;/p>
+&lt;p>Z ogromną radością i dumą chciałam Was poinformować, że zdałam egzamin adwokacki! 💪📚&lt;br>
+To był czas pełen ciężkiej pracy, wielu wyrzeczeń i determinacji, ale cieszę się, że ten ważny etap jest już za mną.&lt;/p>
+&lt;p>Jestem niesamowicie podekscytowana nowymi wyzwaniami i możliwościami, które teraz przede mną stoją jako adwokat. 🚀⚖️&lt;/p>
+&lt;p>Dziękuję wszystkim, którzy trzymali za mnie kciuki i wspierali mnie na tej drodze! Wasze wsparcie było bezcenne! 🔥&lt;/p></description></item><item><title>Przykłady Markdown</title><link>https://mu7trak.github.io/au-website/posts/markdown-sample/</link><pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate><guid>https://mu7trak.github.io/au-website/posts/markdown-sample/</guid><description>&lt;p>To jest przykładowy post mający na celu przetestowanie następujących elementów:&lt;/p>
 &lt;ul>
-&lt;li>Hero image is in the same directory as the post.&lt;/li>
-&lt;li>This post should be at top of the sidebar.&lt;/li>
-&lt;li>Post author should be the same as specified in &lt;code>author.yaml&lt;/code> file.&lt;/li>
-&lt;/ul></description></item><item><title>Markdown Samples</title><link>https://mu7trak.github.io/au-website/posts/markdown-sample/</link><pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate><guid>https://mu7trak.github.io/au-website/posts/markdown-sample/</guid><description>&lt;p>This is a sample post intended to test the followings:&lt;/p>
-&lt;ul>
-&lt;li>A different post author.&lt;/li>
-&lt;li>Table of contents.&lt;/li>
-&lt;li>Markdown content rendering.&lt;/li>
-&lt;li>Math rendering.&lt;/li>
-&lt;li>Emoji rendering.&lt;/li>
+&lt;li>Innego autora postu.&lt;/li>
+&lt;li>Spisu treści.&lt;/li>
+&lt;li>Renderowania treści Markdown.&lt;/li>
+&lt;li>Renderowania matematyki.&lt;/li>
+&lt;li>Renderowania emoji.&lt;/li>
 &lt;/ul>
 &lt;hr>
-&lt;h1 id="markdown-syntax-rendering">Markdown Syntax Rendering&lt;/h1>
-&lt;h2 id="headings">Headings&lt;/h2>
-&lt;p>The following HTML &lt;code>&amp;lt;h1&amp;gt;&lt;/code>—&lt;code>&amp;lt;h6&amp;gt;&lt;/code> elements represent six levels of section headings. &lt;code>&amp;lt;h1&amp;gt;&lt;/code> is the highest section level while &lt;code>&amp;lt;h6&amp;gt;&lt;/code> is the lowest.&lt;/p>
+&lt;h1 id="renderowanie-składni-markdown">Renderowanie Składni Markdown&lt;/h1>
+&lt;h2 id="nagłówki">Nagłówki&lt;/h2>
+&lt;p>Poniższe elementy HTML &lt;code>&amp;lt;h1&amp;gt;&lt;/code>—&lt;code>&amp;lt;h6&amp;gt;&lt;/code> reprezentują sześć poziomów nagłówków sekcji. &lt;code>&amp;lt;h1&amp;gt;&lt;/code> to najwyższy poziom sekcji, a &lt;code>&amp;lt;h6&amp;gt;&lt;/code> to najniższy.&lt;/p>
 &lt;h1 id="h1">H1&lt;/h1>
 &lt;h2 id="h2">H2&lt;/h2>
 &lt;h3 id="h3">H3&lt;/h3>
 &lt;h4 id="h4">H4&lt;/h4>
 &lt;h5 id="h5">H5&lt;/h5>
 &lt;h6 id="h6">H6&lt;/h6>
-&lt;h2 id="paragraph">Paragraph&lt;/h2>
-&lt;p>Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.&lt;/p></description></item></channel></rss>
+&lt;h2 id="akapit">Akapit&lt;/h2>
+&lt;p>Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.&lt;/p></description></item><item><title>Wprowadzenie</title><link>https://mu7trak.github.io/au-website/posts/introduction/</link><pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate><guid>https://mu7trak.github.io/au-website/posts/introduction/</guid><description>&lt;p>Witaj! To jest post wprowadzający. Ten post testuje następujące elementy:&lt;/p>
+&lt;ul>
+&lt;li>Obrazek hero znajduje się w tym samym katalogu co post.&lt;/li>
+&lt;li>Ten post powinien znajdować się na górze paska bocznego.&lt;/li>
+&lt;li>Autor postu powinien być taki sam jak określono w pliku &lt;code>author.yaml&lt;/code>.&lt;/li>
+&lt;/ul></description></item></channel></rss>
